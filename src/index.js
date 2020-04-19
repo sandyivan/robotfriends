@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
+
+// importing a package called tachyongs its 
+//like a bootstrap with pre defined classes for styling out components
+import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
