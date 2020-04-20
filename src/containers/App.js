@@ -27,8 +27,6 @@ class App extends Component {
 		this.setState({searchfield: event.target.value})
 	}
 
-	
-	
 
 	render() {
 		// we are filtering out robots based on the value of our searchfield state
